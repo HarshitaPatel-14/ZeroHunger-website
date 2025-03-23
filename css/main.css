@@ -222,25 +222,6 @@ header
   background: transparent;
 }
 
-.header-area .main-nav .logo {
-  line-height: 120px;
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  float: left;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.background-header .main-nav .logo {
-  line-height: 80px;
-  width: 160px;
-}
-
 .background-header .nav {
   margin-top: 18px !important;
 }
@@ -310,12 +291,6 @@ header
   border-radius: 0px;
   padding-top: 0px !important;
   height: 40px;
-}
-
-
-.header-area .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover,
-.background-header .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover {
-  padding-left: 25px !important;
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -1612,4 +1587,36 @@ body {
   section.about-us ul.nacc li span.item {
     font-size: 13px;
   }
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #575757;
+}
+.map-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#map {
+  width: 80%;
+  height: 80%;
+  border: 2px solid #333;
 }
