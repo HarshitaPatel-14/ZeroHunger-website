@@ -41,11 +41,11 @@
 	color: white;
 }
 
-.booking-form .form-header h1 {
-	font-size: 58px;
+.booking-form .form-header h3 {
+	font-size: 45px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #ffc001;
+	color: #FF7F50;
 	margin: 0px;
 }
 
@@ -126,7 +126,7 @@
 
 .booking-form .submit-btn {
 	color: #ffffff;
-	background-color: #ffc001;
+	background-color: #43ba7f;
 	font-weight: 700;
 	height: 50px;
 	border: none;

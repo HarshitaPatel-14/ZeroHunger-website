@@ -20,12 +20,11 @@
 <body>
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
+  <!-- <header class="header-area header-sticky">
       <div class="container">
           <div class="row">
               <div class="col-12">
                   <nav class="main-nav">
-                      <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                           <li class="scroll-to-section"><a href="#services">Services</a></li>
@@ -42,14 +41,13 @@
                       <a class='menu-trigger'>
                           <span>Menu</span>
                       </a>
-                      <!-- ***** Menu End ***** -->
                   </nav>
               </div>
           </div>
       </div>
-  </header>
+  </header> -->
   <!-- ***** Header Area End ***** -->
-
+  
   <!-- ***** Main Banner Area Start ***** -->
   <div class="swiper-container" id="top">
     <div class="swiper-wrapper">
@@ -67,7 +65,7 @@
                       <a href="donate.html">Donate Food</a>
                     </div>
                     <div class="orange-button">
-                      <a href="#">Get Free Food</a>
+                      <a href="#">Nearby NGO's</a>
                     </div>
                   </div>
                 </div>
@@ -197,4 +195,10 @@
   </div>
   </section> 
   </body>
+  <script>
+    window.addEventListener("scroll", function () {
+    let navbar = document.querySelector("nav");
+    navbar.classList.toggle("sticky", window.scrollY > 50);
+});
+  </script>
 </html>
