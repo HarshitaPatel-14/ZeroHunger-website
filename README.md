@@ -1,2 +1,1 @@
-# hunger-website
-A Food Donation &amp; Distribution Website
+Meals4You - A Food Donation &amp; Distribution Website
